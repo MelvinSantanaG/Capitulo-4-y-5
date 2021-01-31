@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Capitulo_4_y_5
 {
@@ -11,13 +7,11 @@ namespace Capitulo_4_y_5
         //Declarando la variable
 
         String Letter;
-        int Number;
 
         public void Display()
         {
             //Pediendo el numero
             Letter = (Console.ReadLine());
-            Number = Convert.ToInt32(Letter);
 
             if (Letter.IndexOf("1") >= 0)
             {
