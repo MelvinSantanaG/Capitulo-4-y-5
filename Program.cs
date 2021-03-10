@@ -2,9 +2,9 @@
 
 namespace Capitulo_4_y_5
 {
-    class MainProgram
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             int Option;
 
@@ -18,7 +18,6 @@ namespace Capitulo_4_y_5
 
             do
             {
-
                 Option = Convert.ToInt32(Console.ReadLine());
 
                 if (Option != 3)

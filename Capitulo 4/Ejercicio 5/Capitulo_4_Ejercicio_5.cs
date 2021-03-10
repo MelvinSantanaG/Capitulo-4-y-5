@@ -4,7 +4,6 @@ namespace Capitulo_4_y_5
 {
     class Capitulo_4_Ejercicio_5
     {
-      
         public void Average()
         {
 

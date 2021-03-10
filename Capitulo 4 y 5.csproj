@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Capitulo_4_y_5</RootNamespace>
     <AssemblyName>Capitulo 4 y 5</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -48,7 +49,8 @@
     <Compile Include="Capitulo 4\Ejercicio 5\Capitulo_4_Ejercicio_5.cs" />
     <Compile Include="Capitulo 5\Ejercicio 5\Capitulo_5_Ejercicio_5.cs" />
     <Compile Include="Capitulo 5\Ejercicio 4\Capitulo_5_Ejercicio_4.cs" />
-    <Compile Include="MainProgramCapitulo_4_y_5.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
