@@ -44,11 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Capitulo 4\Ejercicio 1\Capitulo_4_Ejercicio_1.cs" />
-    <Compile Include="Capitulo 4\Ejercicio 2\Capitulo_4_Ejercicio_2.cs" />
-    <Compile Include="Capitulo 4\Ejercicio 5\Capitulo_4_Ejercicio_5.cs" />
-    <Compile Include="Capitulo 5\Ejercicio 5\Capitulo_5_Ejercicio_5.cs" />
-    <Compile Include="Capitulo 5\Ejercicio 4\Capitulo_5_Ejercicio_4.cs" />
+    <Compile Include="Capitulo 4 y 5\Capitulo 4\Ejercicio 1\Capitulo_4_Ejercicio_1.cs" />
+    <Compile Include="Capitulo 4 y 5\Capitulo 4\Ejercicio 2\Capitulo_4_Ejercicio_2.cs" />
+    <Compile Include="Capitulo 4 y 5\Capitulo 4\Ejercicio 5\Capitulo_4_Ejercicio_5.cs" />
+    <Compile Include="Capitulo 4 y 5\Capitulo 5\Ejercicio 5\Capitulo_5_Ejercicio_5.cs" />
+    <Compile Include="Capitulo 4 y 5\Capitulo 5\Ejercicio 4\Capitulo_5_Ejercicio_4.cs" />
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
