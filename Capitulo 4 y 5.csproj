@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Capitulo_4_y_5</RootNamespace>
     <AssemblyName>Capitulo 4 y 5</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -33,6 +33,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>tarea.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,11 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Capitulo 4 y 5\Capitulo 4\Ejercicio 1\Capitulo_4_Ejercicio_1.cs" />
-    <Compile Include="Capitulo 4 y 5\Capitulo 4\Ejercicio 2\Capitulo_4_Ejercicio_2.cs" />
-    <Compile Include="Capitulo 4 y 5\Capitulo 4\Ejercicio 5\Capitulo_4_Ejercicio_5.cs" />
-    <Compile Include="Capitulo 4 y 5\Capitulo 5\Ejercicio 5\Capitulo_5_Ejercicio_5.cs" />
-    <Compile Include="Capitulo 4 y 5\Capitulo 5\Ejercicio 4\Capitulo_5_Ejercicio_4.cs" />
+    <Compile Include="Capitulo 4 y 5\Capitulo 4\Ejercicio 1\Capitulo4Ejercicio1.cs" />
+    <Compile Include="Capitulo 4 y 5\Capitulo 4\Ejercicio 2\Capitulo4Ejercicio2.cs" />
+    <Compile Include="Capitulo 4 y 5\Capitulo 4\Ejercicio 5\Capitulo4Ejercicio5.cs" />
+    <Compile Include="Capitulo 4 y 5\Capitulo 5\Ejercicio 5\Capitulo5Ejercicio5.cs" />
+    <Compile Include="Capitulo 4 y 5\Capitulo 5\Ejercicio 4\Capitulo5Ejercicio4.cs" />
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -56,6 +59,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="tarea.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
